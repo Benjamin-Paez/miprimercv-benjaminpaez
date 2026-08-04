@@ -1,0 +1,23 @@
+ul li{
+    list-style-type: none;
+}
+ul{
+    margin: 0;
+}
+li a{
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+nav{
+    background-color: #a53131;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px; /*propiedad de la CAJA*/
+    border-bottom: 1px grey solid;
+}
+
+body{
+    margin: 0;
+}
