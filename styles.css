@@ -14,10 +14,86 @@ nav{
 nav ul{
     display: flex;
     justify-content: space-around;
-    padding: 50px; /*propiedad de la CAJA*/
+    padding: 25px; /*propiedad de la CAJA*/
     border-bottom: 1px grey solid;
 }
 
 body{
     margin: 0;
+    background-color: rgb(223, 203, 203);
+}
+
+.divs{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.cosas{
+    background-color: rgb(255, 175, 175);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+body main section div div h1{
+    color: #330000;
+}
+
+body main section div div img{
+    border-radius: 500px;
+    border: 5px solid #a53131;
+}
+
+.pasa{
+    text-align: center;
+}
+
+#lista{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.hobby{
+    background-color: rgb(255, 175, 175);
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: #a53131;
+    display: flex;
+    justify-content: center;
+    color: rgb(251, 251, 251);
+}
+
+#contacto{
+    text-align: center;
+    justify-content: center;
+}
+
+#formulario{
+    background-color: rgb(255, 175, 175);
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+main section div div img{
+    height: 200px;
+}
+
+button{
+    background-color: chocolate;
+    color: #fff;
 }

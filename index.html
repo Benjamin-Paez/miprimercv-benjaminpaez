@@ -12,7 +12,7 @@
         <!--Barra de navegación-->
         <ul>
             <li>
-                <a href="#sobremi">Sobre mí<i class="fa-solid fa-dragon"></i></a>
+                <a href="#sobremi">Sobre mí</a>
             </li>
             <li>
                 <a href="#hobbies">Pasatiempos</a>
@@ -24,56 +24,67 @@
     </nav>
     <main>
         <section id="sobremi">
-            <div>
+            <div class="divs">
                 <div>
                     <h1>¡Bienvenido!</h1>
                     <p>¡Hola! Soy Benjamín y este es mi currículum web.</p>
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/200x200/000/fff" alt="¡Hola!">
+                    <img src="Assets/IMG_20260811_161553.jpg" alt="¡Hola!">
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="divs">
+                <div class="cosas">
                     <h1>Me gusta...</h1>
-                    <p>Investigar sobre software y hardware en computadoras<i class="fa-solid fa-code"></i></p>
+                    <p>Investigar sobre software y hardware en computadoras</p>
+                    <h1><i class="fa-solid fa-code"></i></h1>
                 </div>
-                <div>
+                <div class="cosas">
                     <h1>Soy bueno en...</h1>
-                    <p>Solución de problemas, trabajo en equipo y creación de proyectos<i class="fa-solid fa-brain"></i></p>
+                    <p>Solución de problemas, trabajo en equipo y creación de proyectos</p>
+                    <h1><i class="fa-solid fa-brain"></i></h1>
                 </div>
-                <div>
+                <div class="cosas">
                     <h1>Personalmente me gusta...</h1>
-                    <p>Pasar tiempo en la noche, relajado y tranquilo.<i class="fa-solid fa-moon"></i></p>
+                    <p>Pasar tiempo en la noche, relajado y tranquilo.</p>
+                    <h1><i class="fa-solid fa-moon"></i></h1>
                 </div>
             </div>
             <hr>
         </section>
         <section id="hobbies">
-            <h1>Mis pasatiempos</h1>
-            <div>
-                <i class="fa-regular fa-futbol"></i>
-                <h1>Videojuegos</h1>
-                <p>Juego videojuegos compitiendo contra otros jugadores. Mis juegos favoritos son Rocket League y Team Fortress 2</p>
-            </div>
-            <div>
-                <i class="fa-regular fa-camera"></i>
-                <h1>Fotografía</h1>
-                <p>Me gusta fotografiar lugares a los que visito, y luego editar la imagen a unos colores y ambientes agradables</p>
-            </div>
-            <div>
-                <i class="fa-solid fa-chess"></i>
-                <h1>Ajedrez</h1>
-                <p>En mi tiempo libre, también juego ajedrez o resuelvo ejercicios del Ajedrez</p>
+            <h1 class="pasa">Mis pasatiempos</h1>
+            <div id="lista">
+                <div class="hobby">
+                    <h1><i class="fa-regular fa-futbol"></i></h1>
+                    <h1>Videojuegos</h1>
+                    <p>Juego videojuegos compitiendo contra otros jugadores. Mis juegos favoritos son Rocket League y Team Fortress 2</p>
+                </div>
+                <div class="hobby">
+                    <h1><i class="fa-regular fa-camera"></i></h1>
+                    <h1>Fotografía</h1>
+                    <p>Me gusta fotografiar lugares a los que visito, y luego editar la imagen a unos colores y ambientes agradables</p>
+                </div>
+                <div class="hobby">
+                    <h1><i class="fa-solid fa-chess"></i></h1>
+                    <h1>Ajedrez</h1>
+                    <p>En mi tiempo libre, también juego ajedrez o resuelvo ejercicios del Ajedrez</p>
+                </div>
             </div>
         </section>
         <section id="contacto">
-            <form action="">
-                <input type="text">
-                <input type="email">
-                <textarea name="" id=""></textarea>
-                <button type="submit"></button>
-            </form>
+            <div id="formulario">
+                <h1>Contacto</h1>
+                <form action="">
+                    <p>Nombre</p>
+                    <input type="text">
+                    <p>email</p>
+                    <input type="email">
+                    <p>mensaje</p>
+                    <textarea name="" id=""></textarea>
+                    <button type="submit"><p>Enviar</p></button>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
